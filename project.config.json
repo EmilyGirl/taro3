@@ -1,15 +1,34 @@
 {
-	"miniprogramRoot": "./dist",
-	"projectname": "myProject",
-	"description": "Emily",
-	"appid": "touristappid",
-	"setting": {
-		"urlCheck": true,
-		"es6": false,
-		"postcss": false,
-		"minified": false,
-		"newFeature": true
-	},
-	"compileType": "miniprogram",
-	"condition": {}
+  "miniprogramRoot": "dist/",
+  "projectname": "taroGit",
+  "description": "Emily",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": false,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "useMultiFrameRuntime": false,
+    "useApiHook": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.12.2",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {}
 }
